@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Book-App",
-    "slug": "Book-App",
+    "name": "Book Review",
+    "slug": "mobiledevelopment",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.awesomearnold.bookreviewpa4fjxfm3fylls1gep1hd"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5d08c1b9-b0ac-4265-9503-add099065841"
+      }
+    },
+    "owner": "awesomearnold"
   }
 }
